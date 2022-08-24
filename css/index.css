@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    width: 100%;
+}
+.img_top{
+    width: 700px;
+    position: relative;
+    top: -120px;
+    left: -120px;
+}
+.img_bottom{
+    width: 700px;
+    position: absolute;
+    top: 350px;
+    left: 810px;
+}
+section{
+    position: absolute;
+    top:220px;
+    left: 480px;
+    z-index: 10;
+    width: 400px;
+}
+.div_card{
+    position: relative;
+    width: 100%;
+    border-bottom-left-radius: 0.5em;
+}
+.img_card{
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    width: 400px;
+}
+.div_hero{
+    margin-top: -5px;
+    background-color: hsl(231, 64%, 98%);
+    padding: 20px 0;
+    position: relative;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.img_hero{
+    width: 80px;
+    position: absolute;
+    top:-45px;
+    left: 170px;
+    border-radius: 100%;
+    border:1.5px solid hsl(231, 64%, 98%);
+}
+.hero{
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+h3{
+    margin-top: 28px;
+    font-size: 18px;
+}
+strong{
+    color: hsl(0, 0%, 59%);
+}
+span{
+    color: hsl(0, 0%, 59%);
+}
+.div_art{
+    margin-top: 25px;
+    display: flex;
+    border-top: 0.1rem solid hsla(0, 0%, 59%, 0.212);
+}
+.sous_art{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.sous_art2{
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.sous_art3{
+    margin-left: 60px;
+    margin-top: 15px;
+}
+article{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen  and (max-width:376px){
+    section{
+        position: absolute;
+        top:110px;
+        left: 35px;
+        z-index: 10;
+        width: 300px;
+    }
+    .img_card{
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        width: 300px;
+    }
+    .img_hero{
+        width: 80px;
+        position: absolute;
+        top:-45px;
+        left: 110px;
+        border-radius: 100%;
+        border:1.5px solid hsl(231, 64%, 98%);
+    }
+    .div_art{
+        margin-top: 25px;
+        display: flex;
+        border-top: 0.1rem solid hsla(0, 0%, 59%, 0.212);
+    }
+    .sous_art{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .sous_art2{
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    .sous_art3{
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    article{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
